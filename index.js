@@ -3,6 +3,6 @@ function lowerCaseDrivers(arr) {
   return arr.map(function (driver) {return driver.toLowerCase()});
 }
 
-function nameToAttributes() {
+function nameToAttributes(arr) {
   return arr.map(function (driver) {return {firstName: driver.split(' ')[0], lastName: driver.split(' ')[1]};});
 }
