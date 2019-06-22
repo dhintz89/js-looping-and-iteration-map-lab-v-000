@@ -4,5 +4,5 @@ function lowerCaseDrivers(arr) {
 }
 
 function nameToAttributes() {
-  
+  return arr.map(function (driver) {return {first: driver})
 }
